@@ -2,7 +2,7 @@
 
 ### Overview
 
-###### This project builds....
+###### This project implements a Revenue-to-Target Gap Analysis pipeline that integrates operational pipeline data and financial reporting data to monitor business performance against annual targets. Data from multiple sources is standardized through a SQL transformation layer, further reshaped in Power BI using Power Query, and modeled in a semantic layer to support analytical calculations. The final dashboard visualizes actual revenue, pipeline contributions, and the remaining gap to target across business units, enabling quick identification of performance trends and potential shortfalls.
 
 ### Architecture
 ![Pipeline Architecture](gap_report_architecture.png.png)
@@ -55,4 +55,5 @@
 ![Dashboard](dashboard_example.png)
 ##### Stacked bars show actual revenue and pipeline contribution by business unit compared against the annual target, highlighting the remaining gap
 
-
+## Data Privacy
+##### All data structures and queries in this repository are simplified examples based on real-world experience. No confidential or proprietary data from Hilco is included.
