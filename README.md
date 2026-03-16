@@ -22,7 +22,7 @@ Azure SQL
 SQL-based analytics project that models financial data to analyze revenue performance vs targets.
 
 **Tech:** SQL, Power BI  
-📁 [View Project](revenue-target-gap-analysis)
+📁 [Revenue-to-Target Gap Analysis](revenue-target-gap-analysis)
 
 ---
 
@@ -30,7 +30,7 @@ SQL-based analytics project that models financial data to analyze revenue perfor
 Design and implementation of a financial data warehouse integrating financial statements, budgets, and headcount data.
 
 **Tech:** Python, Azure SQL, SQL  
-📁 [View Project](financial-data-warehouse)
+📁 [Financial-Data-Warehouse](financial-data-warehouse)
 
 ---
 
@@ -38,4 +38,4 @@ Design and implementation of a financial data warehouse integrating financial st
 SQL transformation models that create analytics-ready datasets using layered modeling practices.
 
 **Tech:** SQL, Azure SQL  
-📁 [View Project](financial-metrics-modeling-framework)
+📁 [Financial-Metrics-Modeling-Framework](financial-metrics-modeling-framework)
