@@ -4,13 +4,16 @@
 ###### This project demonstrates how to design maintainable SQL models for financial KPI reporting. 
 ###### The project focuses on structuring financial metrics logic into reusable transformation layers to support scalable analytics workflows.
 
-## Engineering Concepts Demonstrated
-###### modular SQL transformation design
-###### reusable metric modeling
-###### layered analytics architecture
-###### maintainable KPI logic
-###### structured financial data modeling
-###### support scalable financial reporting
+## Engineering Goals
+###### The objective of this project is to design a transformation framework that:
+###### - separates business logic from warehouse storage tables
+###### - improves SQL maintainability
+###### - standardizes KPI calculations
+###### - enables reusable financial metric definitions
+###### - supports future metric expansion without rewriting large queries
+
+## Data Source
+###### The data used in this project originates from the warehouse tables created in the Financial Data Warehouse project.
 
 ## Transformation Architecture
 ![Transformation Architecture](transformation_architecture.png)
@@ -73,9 +76,9 @@ LEFT JOIN prior_year p
 ### Metric Layer
 ###### The metric layer defines standardized business KPIs used in financial reporting.
 ###### Examples of calculated metrics:
-###### Net Revenue/EBITDA/Personnel Expenses/G&A Expenses Per Employee/Department Manager
-###### Budget vs Actual Variance
-###### Prior Year Comparison Metrics
+###### - Net Revenue/EBITDA/Personnel Expenses/G&A Expenses Per Employee/Department Manager
+###### - Budget vs Actual Variance
+###### - Prior Year Comparison Metrics
 
 ###### SQL query Example Snippet 2:
 ```
@@ -136,12 +139,12 @@ UNPIVOT (
 ### Example KPI Output
 ###### Business names and sensitive identifiers have been anonymized while preserving the table structure.
 ###### Schema
-
+```
 reporting_period | DATE
 business_unit    | VARCHAR
 metric_name      | VARCHAR
 metric_value     | FLOAT
-
+```
 ###### Example Output
 
 | reporting_period | business_unit | metric_name | metric_value |
