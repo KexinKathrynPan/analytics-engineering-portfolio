@@ -39,3 +39,11 @@ SQL transformation models that create analytics-ready datasets using layered mod
 
 **Tech:** SQL, Azure SQL  
 📁 [Financial-Metrics-Modeling-Framework](financial-metrics-modeling-framework)
+
+---
+
+### Cashflow Data Lake Ingestion Pipeline
+Built a scalable data lake ingestion pipeline using PySpark and Microsoft Fabric to process daily semi-structured financial data, implementing incremental updates and current vs. historical data modeling patterns for downstream analytics.
+
+**Tech:** Fabric Data Lake, Pyspark, Python  
+📁 [Cashflow Data Lake Ingestion Pipeline](Cashflow-Data-Lake-Ingestion-Pipeline)
