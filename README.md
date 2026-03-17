@@ -34,7 +34,7 @@ Design and implementation of a financial data warehouse integrating financial st
 
 ---
 
-### Analytics Transformation Layer
+### Financial Metrics Modeling Framework
 SQL transformation models that create analytics-ready datasets using layered modeling practices.
 
 **Tech:** SQL, Azure SQL  
